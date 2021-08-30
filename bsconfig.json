@@ -1,0 +1,16 @@
+{
+    "name": "@idkjs/bs-yojson",
+    "version": "0.0.1",
+    "sources": {
+        "dir": "lib",
+        "files": [
+            "yojson.ml", "yojson.mli",
+            "yojson_biniou.ml", "yojson_biniou.mli"
+        ]
+    },
+    "bs-dependencies": [
+        "bs-biniou"
+    ],
+    "namespace": false,
+    "suffix": ".bs.js"
+}

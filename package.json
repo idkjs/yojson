@@ -1,0 +1,31 @@
+{
+  "name": "@roddynpm/bs-yojson",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roddyyaga/bs-yojson.git"
+  },
+  "scripts": {
+    "postinstall":"esy",
+    "prepare": "npm run clean && esy bsb -make-world",
+    "clean": "bsb -clean-world",
+    "build": "esy bsb -clean-world",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "OCaml"
+  ],
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/roddyyaga/bs-yojson/issues"
+  },
+  "homepage": "https://github.com/roddyyaga/bs-yojson#readme",
+  "dependencies": {
+    "bs-biniou": "idkjs/bs-biniou.git"
+  },
+  "devDependencies": {
+    "esy": "*"
+  }
+}

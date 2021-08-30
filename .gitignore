@@ -2,3 +2,5 @@
 /_opam/
 .merlin
 /*.install
+_esy
+node_modules
