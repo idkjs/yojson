@@ -1,10 +1,12 @@
 (executable
+ (modes byte exe)
  (name filtering)
  (modules filtering)
  (flags (-safe-string))
  (libraries yojson))
 
 (executable
+ (modes byte exe)
  (name constructing)
  (modules constructing)
  (flags (-safe-string))
